@@ -1,0 +1,19 @@
+TOSCA WORKSPACE 
+│
+├── modules
+│   ├── ui
+│   ├── api
+│   ├── db
+│
+├── testcases
+│   ├── smoke
+│   ├── regression
+│   ├── end-to-end
+│
+├── testdata
+│   ├── static
+│   ├── dynamic
+│
+├── execution-lists
+│   ├── ci
+│   ├── local
