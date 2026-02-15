@@ -1,1 +1,46 @@
+USER STORY.................
+# User Stories – OpenCart E-Commerce Application
+
+## US-01: User Login
+As a registered customer  
+I want to log in using valid credentials  
+So that I can access my account and place orders.
+
+Acceptance Criteria:
+- User should be able to log in with valid username and password
+- Error message should be displayed for invalid credentials
+- Session should be maintained after successful login
+
+---
+
+## US-02: Product Search
+As a customer  
+I want to search products using keywords  
+So that I can quickly find required items.
+
+Acceptance Criteria:
+- Relevant products should be displayed for valid search
+- No results message should be shown for invalid keywords
+
+---
+
+## US-03: Add Product to Cart
+As a customer  
+I want to add products to cart  
+So that I can purchase them later.
+
+Acceptance Criteria:
+- Product should be added to cart successfully
+- Cart quantity should update correctly
+
+---
+
+## US-04: Checkout Process
+As a customer  
+I want to checkout selected products  
+So that I can place an order.
+
+Acceptance Criteria:
+- User should be able to proceed to checkout
+- Order confirmation should be displayed after successful checkout
 
