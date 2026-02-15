@@ -1,0 +1,42 @@
+# API Test Scenarios – DummyJSON
+
+Base URL: https://dummyjson.com
+
+## TS_API_01 – Verify Login API with Valid Credentials
+Endpoint:
+POST /auth/login
+
+Request:
+- username
+- password
+
+Expected Result:
+- Status code should be 200
+- Token should be generated
+
+---
+
+## TS_API_02 – Verify Login API with Invalid Credentials
+Expected Result:
+- Status code should be 400
+- Error message should be returned
+
+---
+
+## TS_API_03 – Get Product List
+Endpoint:
+GET /products
+
+Expected Result:
+- Status code 200
+- Product list should be returned
+
+---
+
+## TS_API_04 – Create Order (Mock)
+Endpoint:
+POST /carts/add
+
+Expected Result:
+- Status code 200
+- Order ID should be generated
