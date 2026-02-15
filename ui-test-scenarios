@@ -1,0 +1,50 @@
+# UI Test Scenarios – OpenCart
+
+## TS_UI_01 – Verify Login with Valid Credentials
+Precondition:
+- User must be registered
+- Application is accessible
+
+Test Steps:
+1. Navigate to OpenCart application
+2. Click on My Account → Login
+3. Enter valid username and password
+4. Click Login button
+
+Expected Result:
+- User should be logged in successfully
+- My Account dashboard should be displayed
+
+---
+
+## TS_UI_02 – Verify Login with Invalid Credentials
+Test Steps:
+1. Navigate to Login page
+2. Enter invalid username or password
+3. Click Login
+
+Expected Result:
+- Error message should be displayed
+- User should not be logged in
+
+---
+
+## TS_UI_03 – Verify Product Search
+Test Steps:
+1. Enter valid product name in search box
+2. Click Search
+
+Expected Result:
+- Relevant products should be displayed
+
+---
+
+## TS_UI_04 – Verify Add to Cart
+Test Steps:
+1. Search for a product
+2. Click Add to Cart
+3. Navigate to Cart
+
+Expected Result:
+- Selected product should appear in cart
+- Quantity should be correct
