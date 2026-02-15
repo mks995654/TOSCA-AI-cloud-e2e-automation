@@ -1,0 +1,7 @@
+| Requirement ID | User Story     | Test Case ID         | Automation Status |
+| -------------- | -------------- | -------------------- | ----------------- |
+| US-01          | Login          | TS_UI_01, TS_UI_02   |  Planned          |
+| US-02          | Product Search | TS_UI_03             |  Planned          |
+| US-03          | Add to Cart    | TS_UI_04             |  Planned          |
+| US-04          | Checkout       | TS_UI_05             |  Planned          |
+| API-01         | Login API      | TS_API_01, TS_API_02 |  Planned          |
