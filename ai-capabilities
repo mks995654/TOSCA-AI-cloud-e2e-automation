@@ -1,6 +1,6 @@
 # Tosca AI Scan Implementation
 
-AI Scan was used to automatically identify UI elements on OpenCart pages.
+AI Scan was used to automatically identify UI elements on web Shop pages.
 This reduced manual module creation and improved resilience against UI changes.
 
 Pages scanned:
